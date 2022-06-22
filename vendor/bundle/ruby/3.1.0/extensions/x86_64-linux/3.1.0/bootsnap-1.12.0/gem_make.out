@@ -1,0 +1,15 @@
+current directory: /home/alex/Documents/unicorn/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+/home/alex/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/alex/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220620-41697-kvosoy.rb extconf.rb
+creating Makefile
+
+current directory: /home/alex/Documents/unicorn/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/alex/Documents/unicorn/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/alex/Documents/unicorn/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -m 0755 bootsnap.so ./.gem.20220620-41697-ph1aht/bootsnap
