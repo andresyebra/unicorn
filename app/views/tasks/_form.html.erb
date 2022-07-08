@@ -13,12 +13,12 @@
 
   <div>
     <%= form.label :title, style: "display: block" %>
-    <%= form.text_field :title %>
+    <%= form.text_field :title  %>
   </div>
 
   <div>
     <%= form.label :description, style: "display: block" %>
-    <%= form.text_area :description %>
+    <%= form.text_area :description, cols: 80, rows: 20  %>
   </div>
 
   <div>
@@ -27,13 +27,13 @@
   </div>
 
   <div>
-    <%= form.label :due_at, style: "display: block" %>
-    <%= form.datetime_field :due_at %>
+    <%#= form.label :due_at, style: "display: block" %>
+    <%#= form.datetime_field :due_at %>
   </div>
 
   <div>
-    <%= form.label :daleted_at, style: "display: block" %>
-    <%= form.datetime_field :daleted_at %>
+    <%#= form.label :daleted_at, style: "display: block" %>
+    <%#= form.datetime_field :daleted_at %>
   </div>
 
   <div>
