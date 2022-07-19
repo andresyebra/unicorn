@@ -4,7 +4,7 @@ class TasksController < ApplicationController
   # GET /tasks or /tasks.json
   def index
     @tasks = Task.all
-    @task = Task.new
+   ## @task = Task.new
   end
 
   # GET /tasks/1 or /tasks/1.json
@@ -50,7 +50,7 @@ class TasksController < ApplicationController
 
   # DELETE /tasks/1 or /tasks/1.json
   def destroy
-    @task.destroy
+    @task.daleted_at = Time.now
 
     respond_to do |format|
       format.html { redirect_to tasks_url, notice: "Task was successfully destroyed." }
